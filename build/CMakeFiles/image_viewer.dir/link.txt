@@ -1,0 +1,1 @@
+/usr/sbin/c++ -Wl,--dependency-file=CMakeFiles/image_viewer.dir/link.d CMakeFiles/image_viewer.dir/src/main.cpp.o -o image_viewer  /usr/lib/libSDL2-2.0.so.0.3200.66 /usr/lib/libSDL2main.a /usr/lib/libSDL2_image.so
