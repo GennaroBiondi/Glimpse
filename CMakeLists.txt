@@ -20,16 +20,16 @@ target_link_libraries(image_viewer
 # ── Install targets ────────────────────────────────────────────────────────────
 
 add_custom_target(glimpse-install
-    COMMAND cp ${CMAKE_BINARY_DIR}/image_viewer $ENV{HOME}/local/bin/glimpse
+    COMMAND cp ${CMAKE_BINARY_DIR}/image_viewer $ENV{HOME}/.local/bin/glimpse
     DEPENDS image_viewer
-    COMMENT "Installing glimpse to ~/local/bin"
+    COMMENT "Installing glimpse to ~/.local/bin"
 )
 
 add_custom_target(glimpse-install-release
     COMMAND ${CMAKE_COMMAND} -DCMAKE_BUILD_TYPE=Release ${CMAKE_SOURCE_DIR}
     COMMAND ${CMAKE_COMMAND} --build ${CMAKE_BINARY_DIR}
-    COMMAND cp ${CMAKE_BINARY_DIR}/image_viewer $ENV{HOME}/local/bin/glimpse
-    COMMENT "Installing optimized glimpse to ~/local/bin"
+    COMMAND cp ${CMAKE_BINARY_DIR}/image_viewer $ENV{HOME}/.local/bin/glimpse
+    COMMENT "Installing optimized glimpse to ~/.local/bin"
 )
 
 add_custom_target(glimpse-install-system
