@@ -9,7 +9,7 @@
 
 namespace fs = std::filesystem;
 
-std::uint32_t read_be_u32(const std::uint8_t *p) {
+static std::uint32_t read_be_u32(const std::uint8_t *p) {
     return (static_cast<std::uint32_t>(p[0]) << 24) |
            (static_cast<std::uint32_t>(p[1]) << 16) |
            (static_cast<std::uint32_t>(p[2]) << 8) |
@@ -57,6 +57,7 @@ ImageInfo get_image_info(const fs::path &path) {
         info.format = format;
         info.dimension.width = read_be_u32(ihdr + 0);
         info.dimension.height = read_be_u32(ihdr + 4);
+        info.path = path;
 
         return info;
     }
@@ -86,6 +87,7 @@ ImageInfo get_image_info(const fs::path &path) {
                 info.format = format;
                 info.dimension.width = width;
                 info.dimension.height = height;
+                info.path = path;
 
                 return info;
             }
@@ -116,6 +118,7 @@ ImageInfo get_image_info(const fs::path &path) {
         info.format = format;
         info.dimension.width = width;
         info.dimension.height = height;
+        info.path = path;
 
         return info;
     }
