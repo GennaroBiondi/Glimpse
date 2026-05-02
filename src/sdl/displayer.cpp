@@ -1,3 +1,4 @@
+#include "image/image_displayer.hpp"
 #include "image/image_info.hpp"
 #include "other/math2d.hpp"
 #include "window.hpp"
@@ -5,7 +6,6 @@
 #include <SDL_surface.h>
 #include <SDL_video.h>
 #include <filesystem>
-#include <fstream>
 #include <stdexcept>
 
 namespace Displayer {
@@ -22,21 +22,24 @@ void display_image(const std::filesystem::path &path, const ImageInfo &info) {
             SDL_GetError());
     }
 
-    std::ifstream img_file(path);
-    SDL_Rect pixel = (SDL_Rect){0, 0, 1, 1};
-    for (int y = 0; y < window.dimension.height; y++) {
-        for (int x = 0; x < window.dimension.width; x++) {
-            Uint8 r, g, b;
-            img_file.read(reinterpret_cast<char *>(&r), 1);
-            img_file.read(reinterpret_cast<char *>(&g), 1);
-            img_file.read(reinterpret_cast<char *>(&b), 1);
-            Uint32 color = SDL_MapRGB(psurface->format, r, g, b);
-            pixel.x = x;
-            pixel.y = y;
-            SDL_FillRect(psurface, &pixel, color);
-        }
-    }
+    ImageDisplayer::display(psurface, info);
 
     SDL_UpdateWindowSurface(window.window);
+
+    SDL_Event event;
+    int running = 1;
+
+    while (running) {
+        while (SDL_PollEvent(&event)) {
+            switch (event.type) {
+            case SDL_QUIT:
+            case SDL_KEYDOWN:
+            case SDL_MOUSEBUTTONDOWN:
+                running = 0;
+                break;
+            }
+        }
+        SDL_Delay(10);
+    }
 }
 } // namespace Displayer
