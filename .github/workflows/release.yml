@@ -1,0 +1,29 @@
+name: Release
+
+on:
+  push:
+    tags:
+      - 'v*'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install dependencies
+        run: sudo apt-get install -y libsdl2-dev libsdl2-image-dev
+
+      - name: Configure
+        run: cmake -B build -DCMAKE_BUILD_TYPE=Release
+
+      - name: Build
+        run: cmake --build build
+
+      - name: Create release
+        uses: softprops/action-gh-release@v1
+        with:
+          files: build/image_viewer
+          name: Glimpse ${{ github.ref_name }}
+          body: Release ${{ github.ref_name }}
