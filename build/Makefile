@@ -113,6 +113,7 @@ preinstall/fast:
 
 # clear depends
 depend:
+	$(CMAKE_COMMAND) -P /home/Gennaro/Code/Glimpse/build/CMakeFiles/VerifyGlobs.cmake
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
@@ -128,6 +129,126 @@ image_viewer: cmake_check_build_system
 image_viewer/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/image_viewer.dir/build.make CMakeFiles/image_viewer.dir/build
 .PHONY : image_viewer/fast
+
+src/app/usage.o: src/app/usage.cpp.o
+.PHONY : src/app/usage.o
+
+# target to build an object file
+src/app/usage.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/image_viewer.dir/build.make CMakeFiles/image_viewer.dir/src/app/usage.cpp.o
+.PHONY : src/app/usage.cpp.o
+
+src/app/usage.i: src/app/usage.cpp.i
+.PHONY : src/app/usage.i
+
+# target to preprocess a source file
+src/app/usage.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/image_viewer.dir/build.make CMakeFiles/image_viewer.dir/src/app/usage.cpp.i
+.PHONY : src/app/usage.cpp.i
+
+src/app/usage.s: src/app/usage.cpp.s
+.PHONY : src/app/usage.s
+
+# target to generate assembly for a file
+src/app/usage.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/image_viewer.dir/build.make CMakeFiles/image_viewer.dir/src/app/usage.cpp.s
+.PHONY : src/app/usage.cpp.s
+
+src/image/image_format.o: src/image/image_format.cpp.o
+.PHONY : src/image/image_format.o
+
+# target to build an object file
+src/image/image_format.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/image_viewer.dir/build.make CMakeFiles/image_viewer.dir/src/image/image_format.cpp.o
+.PHONY : src/image/image_format.cpp.o
+
+src/image/image_format.i: src/image/image_format.cpp.i
+.PHONY : src/image/image_format.i
+
+# target to preprocess a source file
+src/image/image_format.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/image_viewer.dir/build.make CMakeFiles/image_viewer.dir/src/image/image_format.cpp.i
+.PHONY : src/image/image_format.cpp.i
+
+src/image/image_format.s: src/image/image_format.cpp.s
+.PHONY : src/image/image_format.s
+
+# target to generate assembly for a file
+src/image/image_format.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/image_viewer.dir/build.make CMakeFiles/image_viewer.dir/src/image/image_format.cpp.s
+.PHONY : src/image/image_format.cpp.s
+
+src/image/image_info.o: src/image/image_info.cpp.o
+.PHONY : src/image/image_info.o
+
+# target to build an object file
+src/image/image_info.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/image_viewer.dir/build.make CMakeFiles/image_viewer.dir/src/image/image_info.cpp.o
+.PHONY : src/image/image_info.cpp.o
+
+src/image/image_info.i: src/image/image_info.cpp.i
+.PHONY : src/image/image_info.i
+
+# target to preprocess a source file
+src/image/image_info.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/image_viewer.dir/build.make CMakeFiles/image_viewer.dir/src/image/image_info.cpp.i
+.PHONY : src/image/image_info.cpp.i
+
+src/image/image_info.s: src/image/image_info.cpp.s
+.PHONY : src/image/image_info.s
+
+# target to generate assembly for a file
+src/image/image_info.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/image_viewer.dir/build.make CMakeFiles/image_viewer.dir/src/image/image_info.cpp.s
+.PHONY : src/image/image_info.cpp.s
+
+src/image/image_reader.o: src/image/image_reader.cpp.o
+.PHONY : src/image/image_reader.o
+
+# target to build an object file
+src/image/image_reader.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/image_viewer.dir/build.make CMakeFiles/image_viewer.dir/src/image/image_reader.cpp.o
+.PHONY : src/image/image_reader.cpp.o
+
+src/image/image_reader.i: src/image/image_reader.cpp.i
+.PHONY : src/image/image_reader.i
+
+# target to preprocess a source file
+src/image/image_reader.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/image_viewer.dir/build.make CMakeFiles/image_viewer.dir/src/image/image_reader.cpp.i
+.PHONY : src/image/image_reader.cpp.i
+
+src/image/image_reader.s: src/image/image_reader.cpp.s
+.PHONY : src/image/image_reader.s
+
+# target to generate assembly for a file
+src/image/image_reader.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/image_viewer.dir/build.make CMakeFiles/image_viewer.dir/src/image/image_reader.cpp.s
+.PHONY : src/image/image_reader.cpp.s
+
+src/image/image_utils.o: src/image/image_utils.cpp.o
+.PHONY : src/image/image_utils.o
+
+# target to build an object file
+src/image/image_utils.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/image_viewer.dir/build.make CMakeFiles/image_viewer.dir/src/image/image_utils.cpp.o
+.PHONY : src/image/image_utils.cpp.o
+
+src/image/image_utils.i: src/image/image_utils.cpp.i
+.PHONY : src/image/image_utils.i
+
+# target to preprocess a source file
+src/image/image_utils.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/image_viewer.dir/build.make CMakeFiles/image_viewer.dir/src/image/image_utils.cpp.i
+.PHONY : src/image/image_utils.cpp.i
+
+src/image/image_utils.s: src/image/image_utils.cpp.s
+.PHONY : src/image/image_utils.s
+
+# target to generate assembly for a file
+src/image/image_utils.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/image_viewer.dir/build.make CMakeFiles/image_viewer.dir/src/image/image_utils.cpp.s
+.PHONY : src/image/image_utils.cpp.s
 
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
@@ -153,6 +274,78 @@ src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/image_viewer.dir/build.make CMakeFiles/image_viewer.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
+src/other/math2d.o: src/other/math2d.cpp.o
+.PHONY : src/other/math2d.o
+
+# target to build an object file
+src/other/math2d.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/image_viewer.dir/build.make CMakeFiles/image_viewer.dir/src/other/math2d.cpp.o
+.PHONY : src/other/math2d.cpp.o
+
+src/other/math2d.i: src/other/math2d.cpp.i
+.PHONY : src/other/math2d.i
+
+# target to preprocess a source file
+src/other/math2d.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/image_viewer.dir/build.make CMakeFiles/image_viewer.dir/src/other/math2d.cpp.i
+.PHONY : src/other/math2d.cpp.i
+
+src/other/math2d.s: src/other/math2d.cpp.s
+.PHONY : src/other/math2d.s
+
+# target to generate assembly for a file
+src/other/math2d.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/image_viewer.dir/build.make CMakeFiles/image_viewer.dir/src/other/math2d.cpp.s
+.PHONY : src/other/math2d.cpp.s
+
+src/sdl/displayer.o: src/sdl/displayer.cpp.o
+.PHONY : src/sdl/displayer.o
+
+# target to build an object file
+src/sdl/displayer.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/image_viewer.dir/build.make CMakeFiles/image_viewer.dir/src/sdl/displayer.cpp.o
+.PHONY : src/sdl/displayer.cpp.o
+
+src/sdl/displayer.i: src/sdl/displayer.cpp.i
+.PHONY : src/sdl/displayer.i
+
+# target to preprocess a source file
+src/sdl/displayer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/image_viewer.dir/build.make CMakeFiles/image_viewer.dir/src/sdl/displayer.cpp.i
+.PHONY : src/sdl/displayer.cpp.i
+
+src/sdl/displayer.s: src/sdl/displayer.cpp.s
+.PHONY : src/sdl/displayer.s
+
+# target to generate assembly for a file
+src/sdl/displayer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/image_viewer.dir/build.make CMakeFiles/image_viewer.dir/src/sdl/displayer.cpp.s
+.PHONY : src/sdl/displayer.cpp.s
+
+src/sdl/window.o: src/sdl/window.cpp.o
+.PHONY : src/sdl/window.o
+
+# target to build an object file
+src/sdl/window.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/image_viewer.dir/build.make CMakeFiles/image_viewer.dir/src/sdl/window.cpp.o
+.PHONY : src/sdl/window.cpp.o
+
+src/sdl/window.i: src/sdl/window.cpp.i
+.PHONY : src/sdl/window.i
+
+# target to preprocess a source file
+src/sdl/window.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/image_viewer.dir/build.make CMakeFiles/image_viewer.dir/src/sdl/window.cpp.i
+.PHONY : src/sdl/window.cpp.i
+
+src/sdl/window.s: src/sdl/window.cpp.s
+.PHONY : src/sdl/window.s
+
+# target to generate assembly for a file
+src/sdl/window.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/image_viewer.dir/build.make CMakeFiles/image_viewer.dir/src/sdl/window.cpp.s
+.PHONY : src/sdl/window.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -162,9 +355,33 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... image_viewer"
+	@echo "... src/app/usage.o"
+	@echo "... src/app/usage.i"
+	@echo "... src/app/usage.s"
+	@echo "... src/image/image_format.o"
+	@echo "... src/image/image_format.i"
+	@echo "... src/image/image_format.s"
+	@echo "... src/image/image_info.o"
+	@echo "... src/image/image_info.i"
+	@echo "... src/image/image_info.s"
+	@echo "... src/image/image_reader.o"
+	@echo "... src/image/image_reader.i"
+	@echo "... src/image/image_reader.s"
+	@echo "... src/image/image_utils.o"
+	@echo "... src/image/image_utils.i"
+	@echo "... src/image/image_utils.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... src/other/math2d.o"
+	@echo "... src/other/math2d.i"
+	@echo "... src/other/math2d.s"
+	@echo "... src/sdl/displayer.o"
+	@echo "... src/sdl/displayer.i"
+	@echo "... src/sdl/displayer.s"
+	@echo "... src/sdl/window.o"
+	@echo "... src/sdl/window.i"
+	@echo "... src/sdl/window.s"
 .PHONY : help
 
 
@@ -176,6 +393,7 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
+	$(CMAKE_COMMAND) -P /home/Gennaro/Code/Glimpse/build/CMakeFiles/VerifyGlobs.cmake
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

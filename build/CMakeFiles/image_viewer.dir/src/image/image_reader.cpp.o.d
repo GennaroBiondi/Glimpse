@@ -1,6 +1,7 @@
-CMakeFiles/image_viewer.dir/src/main.cpp.o: \
- /home/Gennaro/Code/Glimpse/src/main.cpp /usr/include/stdc-predef.h \
- /home/Gennaro/Code/Glimpse/src/app/usage.hpp \
+CMakeFiles/image_viewer.dir/src/image/image_reader.cpp.o: \
+ /home/Gennaro/Code/Glimpse/src/image/image_reader.cpp \
+ /usr/include/stdc-predef.h \
+ /home/Gennaro/Code/Glimpse/src/image/image_reader.hpp \
  /home/Gennaro/Code/Glimpse/src/image/image_info.hpp \
  /home/Gennaro/Code/Glimpse/src/image/image_format.hpp \
  /usr/include/c++/15.2.1/filesystem \
@@ -183,9 +184,8 @@ CMakeFiles/image_viewer.dir/src/main.cpp.o: \
  /usr/include/c++/15.2.1/bits/fs_dir.h \
  /usr/include/c++/15.2.1/bits/fs_ops.h \
  /home/Gennaro/Code/Glimpse/src/other/math2d.hpp \
- /home/Gennaro/Code/Glimpse/src/image/image_reader.hpp \
- /home/Gennaro/Code/Glimpse/src/image/image_info.hpp \
- /home/Gennaro/Code/Glimpse/src/image/image_utils.hpp \
- /home/Gennaro/Code/Glimpse/src/sdl/displayer.hpp \
- /home/Gennaro/Code/Glimpse/src/image/image_info.hpp \
- /usr/include/c++/15.2.1/iostream
+ /home/Gennaro/Code/Glimpse/src/image/image_format.hpp \
+ /usr/include/c++/15.2.1/fstream \
+ /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/basic_file.h \
+ /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/c++io.h \
+ /usr/include/c++/15.2.1/bits/fstream.tcc

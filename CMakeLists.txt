@@ -4,13 +4,13 @@ project(ImageViewer)
 
 set(CMAKE_CXX_STANDARD 20)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
+set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 
 find_package(SDL2 REQUIRED)
 find_package(SDL2_image REQUIRED)
 
-add_executable(image_viewer
-    src/main.cpp
-)
+file(GLOB_RECURSE SOURCES CONFIGURE_DEPENDS src/*.cpp)
+add_executable(image_viewer ${SOURCES})
 
 target_include_directories(image_viewer PRIVATE src)
 

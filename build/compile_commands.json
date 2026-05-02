@@ -1,0 +1,56 @@
+[
+{
+  "directory": "/home/Gennaro/Code/Glimpse/build",
+  "command": "/usr/sbin/c++  -I/home/Gennaro/Code/Glimpse/src -isystem /usr/include/SDL2 -std=gnu++20 -o CMakeFiles/image_viewer.dir/src/app/usage.cpp.o -c /home/Gennaro/Code/Glimpse/src/app/usage.cpp",
+  "file": "/home/Gennaro/Code/Glimpse/src/app/usage.cpp",
+  "output": "CMakeFiles/image_viewer.dir/src/app/usage.cpp.o"
+},
+{
+  "directory": "/home/Gennaro/Code/Glimpse/build",
+  "command": "/usr/sbin/c++  -I/home/Gennaro/Code/Glimpse/src -isystem /usr/include/SDL2 -std=gnu++20 -o CMakeFiles/image_viewer.dir/src/image/image_format.cpp.o -c /home/Gennaro/Code/Glimpse/src/image/image_format.cpp",
+  "file": "/home/Gennaro/Code/Glimpse/src/image/image_format.cpp",
+  "output": "CMakeFiles/image_viewer.dir/src/image/image_format.cpp.o"
+},
+{
+  "directory": "/home/Gennaro/Code/Glimpse/build",
+  "command": "/usr/sbin/c++  -I/home/Gennaro/Code/Glimpse/src -isystem /usr/include/SDL2 -std=gnu++20 -o CMakeFiles/image_viewer.dir/src/image/image_info.cpp.o -c /home/Gennaro/Code/Glimpse/src/image/image_info.cpp",
+  "file": "/home/Gennaro/Code/Glimpse/src/image/image_info.cpp",
+  "output": "CMakeFiles/image_viewer.dir/src/image/image_info.cpp.o"
+},
+{
+  "directory": "/home/Gennaro/Code/Glimpse/build",
+  "command": "/usr/sbin/c++  -I/home/Gennaro/Code/Glimpse/src -isystem /usr/include/SDL2 -std=gnu++20 -o CMakeFiles/image_viewer.dir/src/image/image_reader.cpp.o -c /home/Gennaro/Code/Glimpse/src/image/image_reader.cpp",
+  "file": "/home/Gennaro/Code/Glimpse/src/image/image_reader.cpp",
+  "output": "CMakeFiles/image_viewer.dir/src/image/image_reader.cpp.o"
+},
+{
+  "directory": "/home/Gennaro/Code/Glimpse/build",
+  "command": "/usr/sbin/c++  -I/home/Gennaro/Code/Glimpse/src -isystem /usr/include/SDL2 -std=gnu++20 -o CMakeFiles/image_viewer.dir/src/image/image_utils.cpp.o -c /home/Gennaro/Code/Glimpse/src/image/image_utils.cpp",
+  "file": "/home/Gennaro/Code/Glimpse/src/image/image_utils.cpp",
+  "output": "CMakeFiles/image_viewer.dir/src/image/image_utils.cpp.o"
+},
+{
+  "directory": "/home/Gennaro/Code/Glimpse/build",
+  "command": "/usr/sbin/c++  -I/home/Gennaro/Code/Glimpse/src -isystem /usr/include/SDL2 -std=gnu++20 -o CMakeFiles/image_viewer.dir/src/main.cpp.o -c /home/Gennaro/Code/Glimpse/src/main.cpp",
+  "file": "/home/Gennaro/Code/Glimpse/src/main.cpp",
+  "output": "CMakeFiles/image_viewer.dir/src/main.cpp.o"
+},
+{
+  "directory": "/home/Gennaro/Code/Glimpse/build",
+  "command": "/usr/sbin/c++  -I/home/Gennaro/Code/Glimpse/src -isystem /usr/include/SDL2 -std=gnu++20 -o CMakeFiles/image_viewer.dir/src/other/math2d.cpp.o -c /home/Gennaro/Code/Glimpse/src/other/math2d.cpp",
+  "file": "/home/Gennaro/Code/Glimpse/src/other/math2d.cpp",
+  "output": "CMakeFiles/image_viewer.dir/src/other/math2d.cpp.o"
+},
+{
+  "directory": "/home/Gennaro/Code/Glimpse/build",
+  "command": "/usr/sbin/c++  -I/home/Gennaro/Code/Glimpse/src -isystem /usr/include/SDL2 -std=gnu++20 -o CMakeFiles/image_viewer.dir/src/sdl/displayer.cpp.o -c /home/Gennaro/Code/Glimpse/src/sdl/displayer.cpp",
+  "file": "/home/Gennaro/Code/Glimpse/src/sdl/displayer.cpp",
+  "output": "CMakeFiles/image_viewer.dir/src/sdl/displayer.cpp.o"
+},
+{
+  "directory": "/home/Gennaro/Code/Glimpse/build",
+  "command": "/usr/sbin/c++  -I/home/Gennaro/Code/Glimpse/src -isystem /usr/include/SDL2 -std=gnu++20 -o CMakeFiles/image_viewer.dir/src/sdl/window.cpp.o -c /home/Gennaro/Code/Glimpse/src/sdl/window.cpp",
+  "file": "/home/Gennaro/Code/Glimpse/src/sdl/window.cpp",
+  "output": "CMakeFiles/image_viewer.dir/src/sdl/window.cpp.o"
+}
+]
