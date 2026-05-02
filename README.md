@@ -17,9 +17,17 @@ cmake -B build
 cmake --build build
 ```
 
+## Installing
+```bash
+cmake --build build --target glimpse-install                      # Install to ~/local/bin
+cmake --build build --target glimpse-install-release              # Install to ~/local/bin, optimized
+cmake --build build --target glimpse-install-system               # Install to /usr/local/bin
+cmake --build build --target glimpse-install-system-release       # Install to /usr/local/bin, optimized
+```
+
 ## Usage
 ```bash
-./build/image_viewer [COMMAND] [IMAGE_PATH]
+glimpse [COMMAND] [IMAGE_PATH]
 ```
 
 ### Commands
@@ -31,6 +39,6 @@ cmake --build build
 
 ### Examples
 ```bash
-./build/image_viewer view ~/Pictures/photo.png
-./build/image_viewer check ~/Pictures/photo.jpg
+glimpse view ~/Pictures/photo.png
+glimpse check ~/Pictures/photo.jpg
 ```
