@@ -8,7 +8,7 @@
 #include <string_view>
 
 struct Window {
-    SDL_Window *window;
+    SDL_Window *window = nullptr;
     Vector2 position;
     Dim2 dimension;
     std::string name;
@@ -16,6 +16,13 @@ struct Window {
     Window(const Vector2 &vec2, const Dim2 &dim, std::string_view name);
 
     void display_window();
+
+    ~Window() {
+        if (window) {
+            SDL_DestroyWindow(window);
+            SDL_Quit();
+        }
+    }
 };
 
 #endif
