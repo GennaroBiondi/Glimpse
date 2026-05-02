@@ -5,6 +5,7 @@
 file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "/home/Gennaro/Code/Glimpse/src/*.cpp")
 set(OLD_GLOB
   "/home/Gennaro/Code/Glimpse/src/app/usage.cpp"
+  "/home/Gennaro/Code/Glimpse/src/image/image_displayer.cpp"
   "/home/Gennaro/Code/Glimpse/src/image/image_format.cpp"
   "/home/Gennaro/Code/Glimpse/src/image/image_info.cpp"
   "/home/Gennaro/Code/Glimpse/src/image/image_reader.cpp"

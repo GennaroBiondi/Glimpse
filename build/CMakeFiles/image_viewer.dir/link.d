@@ -3,6 +3,7 @@ image_viewer: \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crti.o \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtbeginS.o \
   CMakeFiles/image_viewer.dir/src/app/usage.cpp.o \
+  CMakeFiles/image_viewer.dir/src/image/image_displayer.cpp.o \
   CMakeFiles/image_viewer.dir/src/image/image_format.cpp.o \
   CMakeFiles/image_viewer.dir/src/image/image_info.cpp.o \
   CMakeFiles/image_viewer.dir/src/image/image_reader.cpp.o \
@@ -11,7 +12,7 @@ image_viewer: \
   CMakeFiles/image_viewer.dir/src/other/math2d.cpp.o \
   CMakeFiles/image_viewer.dir/src/sdl/displayer.cpp.o \
   CMakeFiles/image_viewer.dir/src/sdl/window.cpp.o \
-  /usr/lib/libSDL2-2.0.so.0.3200.66 \
+  /usr/lib/libSDL2-2.0.so.0.3200.68 \
   /usr/lib/libSDL2main.a \
   /usr/lib/libSDL2_image.so \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/libstdc++.so \
@@ -80,6 +81,8 @@ image_viewer: \
 
 CMakeFiles/image_viewer.dir/src/app/usage.cpp.o:
 
+CMakeFiles/image_viewer.dir/src/image/image_displayer.cpp.o:
+
 CMakeFiles/image_viewer.dir/src/image/image_format.cpp.o:
 
 CMakeFiles/image_viewer.dir/src/image/image_info.cpp.o:
@@ -96,7 +99,7 @@ CMakeFiles/image_viewer.dir/src/sdl/displayer.cpp.o:
 
 CMakeFiles/image_viewer.dir/src/sdl/window.cpp.o:
 
-/usr/lib/libSDL2-2.0.so.0.3200.66:
+/usr/lib/libSDL2-2.0.so.0.3200.68:
 
 /usr/lib/libSDL2main.a:
 

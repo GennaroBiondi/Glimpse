@@ -86,10 +86,24 @@ CMakeFiles/image_viewer.dir/src/app/usage.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/image_viewer.dir/src/app/usage.cpp.s"
 	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/Gennaro/Code/Glimpse/src/app/usage.cpp -o CMakeFiles/image_viewer.dir/src/app/usage.cpp.s
 
+CMakeFiles/image_viewer.dir/src/image/image_displayer.cpp.o: CMakeFiles/image_viewer.dir/flags.make
+CMakeFiles/image_viewer.dir/src/image/image_displayer.cpp.o: /home/Gennaro/Code/Glimpse/src/image/image_displayer.cpp
+CMakeFiles/image_viewer.dir/src/image/image_displayer.cpp.o: CMakeFiles/image_viewer.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/Gennaro/Code/Glimpse/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/image_viewer.dir/src/image/image_displayer.cpp.o"
+	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/image_viewer.dir/src/image/image_displayer.cpp.o -MF CMakeFiles/image_viewer.dir/src/image/image_displayer.cpp.o.d -o CMakeFiles/image_viewer.dir/src/image/image_displayer.cpp.o -c /home/Gennaro/Code/Glimpse/src/image/image_displayer.cpp
+
+CMakeFiles/image_viewer.dir/src/image/image_displayer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/image_viewer.dir/src/image/image_displayer.cpp.i"
+	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/Gennaro/Code/Glimpse/src/image/image_displayer.cpp > CMakeFiles/image_viewer.dir/src/image/image_displayer.cpp.i
+
+CMakeFiles/image_viewer.dir/src/image/image_displayer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/image_viewer.dir/src/image/image_displayer.cpp.s"
+	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/Gennaro/Code/Glimpse/src/image/image_displayer.cpp -o CMakeFiles/image_viewer.dir/src/image/image_displayer.cpp.s
+
 CMakeFiles/image_viewer.dir/src/image/image_format.cpp.o: CMakeFiles/image_viewer.dir/flags.make
 CMakeFiles/image_viewer.dir/src/image/image_format.cpp.o: /home/Gennaro/Code/Glimpse/src/image/image_format.cpp
 CMakeFiles/image_viewer.dir/src/image/image_format.cpp.o: CMakeFiles/image_viewer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/Gennaro/Code/Glimpse/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/image_viewer.dir/src/image/image_format.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/Gennaro/Code/Glimpse/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/image_viewer.dir/src/image/image_format.cpp.o"
 	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/image_viewer.dir/src/image/image_format.cpp.o -MF CMakeFiles/image_viewer.dir/src/image/image_format.cpp.o.d -o CMakeFiles/image_viewer.dir/src/image/image_format.cpp.o -c /home/Gennaro/Code/Glimpse/src/image/image_format.cpp
 
 CMakeFiles/image_viewer.dir/src/image/image_format.cpp.i: cmake_force
@@ -103,7 +117,7 @@ CMakeFiles/image_viewer.dir/src/image/image_format.cpp.s: cmake_force
 CMakeFiles/image_viewer.dir/src/image/image_info.cpp.o: CMakeFiles/image_viewer.dir/flags.make
 CMakeFiles/image_viewer.dir/src/image/image_info.cpp.o: /home/Gennaro/Code/Glimpse/src/image/image_info.cpp
 CMakeFiles/image_viewer.dir/src/image/image_info.cpp.o: CMakeFiles/image_viewer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/Gennaro/Code/Glimpse/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/image_viewer.dir/src/image/image_info.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/Gennaro/Code/Glimpse/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/image_viewer.dir/src/image/image_info.cpp.o"
 	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/image_viewer.dir/src/image/image_info.cpp.o -MF CMakeFiles/image_viewer.dir/src/image/image_info.cpp.o.d -o CMakeFiles/image_viewer.dir/src/image/image_info.cpp.o -c /home/Gennaro/Code/Glimpse/src/image/image_info.cpp
 
 CMakeFiles/image_viewer.dir/src/image/image_info.cpp.i: cmake_force
@@ -117,7 +131,7 @@ CMakeFiles/image_viewer.dir/src/image/image_info.cpp.s: cmake_force
 CMakeFiles/image_viewer.dir/src/image/image_reader.cpp.o: CMakeFiles/image_viewer.dir/flags.make
 CMakeFiles/image_viewer.dir/src/image/image_reader.cpp.o: /home/Gennaro/Code/Glimpse/src/image/image_reader.cpp
 CMakeFiles/image_viewer.dir/src/image/image_reader.cpp.o: CMakeFiles/image_viewer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/Gennaro/Code/Glimpse/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/image_viewer.dir/src/image/image_reader.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/Gennaro/Code/Glimpse/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/image_viewer.dir/src/image/image_reader.cpp.o"
 	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/image_viewer.dir/src/image/image_reader.cpp.o -MF CMakeFiles/image_viewer.dir/src/image/image_reader.cpp.o.d -o CMakeFiles/image_viewer.dir/src/image/image_reader.cpp.o -c /home/Gennaro/Code/Glimpse/src/image/image_reader.cpp
 
 CMakeFiles/image_viewer.dir/src/image/image_reader.cpp.i: cmake_force
@@ -131,7 +145,7 @@ CMakeFiles/image_viewer.dir/src/image/image_reader.cpp.s: cmake_force
 CMakeFiles/image_viewer.dir/src/image/image_utils.cpp.o: CMakeFiles/image_viewer.dir/flags.make
 CMakeFiles/image_viewer.dir/src/image/image_utils.cpp.o: /home/Gennaro/Code/Glimpse/src/image/image_utils.cpp
 CMakeFiles/image_viewer.dir/src/image/image_utils.cpp.o: CMakeFiles/image_viewer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/Gennaro/Code/Glimpse/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/image_viewer.dir/src/image/image_utils.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/Gennaro/Code/Glimpse/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/image_viewer.dir/src/image/image_utils.cpp.o"
 	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/image_viewer.dir/src/image/image_utils.cpp.o -MF CMakeFiles/image_viewer.dir/src/image/image_utils.cpp.o.d -o CMakeFiles/image_viewer.dir/src/image/image_utils.cpp.o -c /home/Gennaro/Code/Glimpse/src/image/image_utils.cpp
 
 CMakeFiles/image_viewer.dir/src/image/image_utils.cpp.i: cmake_force
@@ -145,7 +159,7 @@ CMakeFiles/image_viewer.dir/src/image/image_utils.cpp.s: cmake_force
 CMakeFiles/image_viewer.dir/src/main.cpp.o: CMakeFiles/image_viewer.dir/flags.make
 CMakeFiles/image_viewer.dir/src/main.cpp.o: /home/Gennaro/Code/Glimpse/src/main.cpp
 CMakeFiles/image_viewer.dir/src/main.cpp.o: CMakeFiles/image_viewer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/Gennaro/Code/Glimpse/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/image_viewer.dir/src/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/Gennaro/Code/Glimpse/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/image_viewer.dir/src/main.cpp.o"
 	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/image_viewer.dir/src/main.cpp.o -MF CMakeFiles/image_viewer.dir/src/main.cpp.o.d -o CMakeFiles/image_viewer.dir/src/main.cpp.o -c /home/Gennaro/Code/Glimpse/src/main.cpp
 
 CMakeFiles/image_viewer.dir/src/main.cpp.i: cmake_force
@@ -159,7 +173,7 @@ CMakeFiles/image_viewer.dir/src/main.cpp.s: cmake_force
 CMakeFiles/image_viewer.dir/src/other/math2d.cpp.o: CMakeFiles/image_viewer.dir/flags.make
 CMakeFiles/image_viewer.dir/src/other/math2d.cpp.o: /home/Gennaro/Code/Glimpse/src/other/math2d.cpp
 CMakeFiles/image_viewer.dir/src/other/math2d.cpp.o: CMakeFiles/image_viewer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/Gennaro/Code/Glimpse/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/image_viewer.dir/src/other/math2d.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/Gennaro/Code/Glimpse/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/image_viewer.dir/src/other/math2d.cpp.o"
 	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/image_viewer.dir/src/other/math2d.cpp.o -MF CMakeFiles/image_viewer.dir/src/other/math2d.cpp.o.d -o CMakeFiles/image_viewer.dir/src/other/math2d.cpp.o -c /home/Gennaro/Code/Glimpse/src/other/math2d.cpp
 
 CMakeFiles/image_viewer.dir/src/other/math2d.cpp.i: cmake_force
@@ -173,7 +187,7 @@ CMakeFiles/image_viewer.dir/src/other/math2d.cpp.s: cmake_force
 CMakeFiles/image_viewer.dir/src/sdl/displayer.cpp.o: CMakeFiles/image_viewer.dir/flags.make
 CMakeFiles/image_viewer.dir/src/sdl/displayer.cpp.o: /home/Gennaro/Code/Glimpse/src/sdl/displayer.cpp
 CMakeFiles/image_viewer.dir/src/sdl/displayer.cpp.o: CMakeFiles/image_viewer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/Gennaro/Code/Glimpse/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/image_viewer.dir/src/sdl/displayer.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/Gennaro/Code/Glimpse/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/image_viewer.dir/src/sdl/displayer.cpp.o"
 	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/image_viewer.dir/src/sdl/displayer.cpp.o -MF CMakeFiles/image_viewer.dir/src/sdl/displayer.cpp.o.d -o CMakeFiles/image_viewer.dir/src/sdl/displayer.cpp.o -c /home/Gennaro/Code/Glimpse/src/sdl/displayer.cpp
 
 CMakeFiles/image_viewer.dir/src/sdl/displayer.cpp.i: cmake_force
@@ -187,7 +201,7 @@ CMakeFiles/image_viewer.dir/src/sdl/displayer.cpp.s: cmake_force
 CMakeFiles/image_viewer.dir/src/sdl/window.cpp.o: CMakeFiles/image_viewer.dir/flags.make
 CMakeFiles/image_viewer.dir/src/sdl/window.cpp.o: /home/Gennaro/Code/Glimpse/src/sdl/window.cpp
 CMakeFiles/image_viewer.dir/src/sdl/window.cpp.o: CMakeFiles/image_viewer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/Gennaro/Code/Glimpse/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/image_viewer.dir/src/sdl/window.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/Gennaro/Code/Glimpse/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/image_viewer.dir/src/sdl/window.cpp.o"
 	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/image_viewer.dir/src/sdl/window.cpp.o -MF CMakeFiles/image_viewer.dir/src/sdl/window.cpp.o.d -o CMakeFiles/image_viewer.dir/src/sdl/window.cpp.o -c /home/Gennaro/Code/Glimpse/src/sdl/window.cpp
 
 CMakeFiles/image_viewer.dir/src/sdl/window.cpp.i: cmake_force
@@ -201,6 +215,7 @@ CMakeFiles/image_viewer.dir/src/sdl/window.cpp.s: cmake_force
 # Object files for target image_viewer
 image_viewer_OBJECTS = \
 "CMakeFiles/image_viewer.dir/src/app/usage.cpp.o" \
+"CMakeFiles/image_viewer.dir/src/image/image_displayer.cpp.o" \
 "CMakeFiles/image_viewer.dir/src/image/image_format.cpp.o" \
 "CMakeFiles/image_viewer.dir/src/image/image_info.cpp.o" \
 "CMakeFiles/image_viewer.dir/src/image/image_reader.cpp.o" \
@@ -214,6 +229,7 @@ image_viewer_OBJECTS = \
 image_viewer_EXTERNAL_OBJECTS =
 
 image_viewer: CMakeFiles/image_viewer.dir/src/app/usage.cpp.o
+image_viewer: CMakeFiles/image_viewer.dir/src/image/image_displayer.cpp.o
 image_viewer: CMakeFiles/image_viewer.dir/src/image/image_format.cpp.o
 image_viewer: CMakeFiles/image_viewer.dir/src/image/image_info.cpp.o
 image_viewer: CMakeFiles/image_viewer.dir/src/image/image_reader.cpp.o
@@ -224,11 +240,11 @@ image_viewer: CMakeFiles/image_viewer.dir/src/sdl/displayer.cpp.o
 image_viewer: CMakeFiles/image_viewer.dir/src/sdl/window.cpp.o
 image_viewer: CMakeFiles/image_viewer.dir/build.make
 image_viewer: CMakeFiles/image_viewer.dir/compiler_depend.ts
-image_viewer: /usr/lib/libSDL2-2.0.so.0.3200.66
+image_viewer: /usr/lib/libSDL2-2.0.so.0.3200.68
 image_viewer: /usr/lib/libSDL2main.a
 image_viewer: /usr/lib/libSDL2_image.so
 image_viewer: CMakeFiles/image_viewer.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/Gennaro/Code/Glimpse/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable image_viewer"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/Gennaro/Code/Glimpse/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable image_viewer"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/image_viewer.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

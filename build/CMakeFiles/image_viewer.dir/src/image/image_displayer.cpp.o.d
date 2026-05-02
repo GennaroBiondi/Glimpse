@@ -1,5 +1,5 @@
-CMakeFiles/image_viewer.dir/src/sdl/displayer.cpp.o: \
- /home/Gennaro/Code/Glimpse/src/sdl/displayer.cpp \
+CMakeFiles/image_viewer.dir/src/image/image_displayer.cpp.o: \
+ /home/Gennaro/Code/Glimpse/src/image/image_displayer.cpp \
  /usr/include/stdc-predef.h \
  /home/Gennaro/Code/Glimpse/src/image/image_displayer.hpp \
  /home/Gennaro/Code/Glimpse/src/image/image_info.hpp \
@@ -351,5 +351,8 @@ CMakeFiles/image_viewer.dir/src/sdl/displayer.cpp.o: \
  /usr/include/SDL2/SDL_system.h /usr/include/SDL2/SDL_timer.h \
  /usr/include/SDL2/SDL_version.h /usr/include/SDL2/SDL_locale.h \
  /usr/include/SDL2/SDL_misc.h /usr/include/SDL2/SDL_surface.h \
- /home/Gennaro/Code/Glimpse/src/sdl/window.hpp \
- /usr/include/SDL2/SDL_video.h
+ /usr/include/SDL2/SDL_image.h /usr/include/SDL2/SDL.h \
+ /usr/include/c++/15.2.1/cstring /usr/include/c++/15.2.1/fstream \
+ /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/basic_file.h \
+ /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/c++io.h \
+ /usr/include/c++/15.2.1/bits/fstream.tcc

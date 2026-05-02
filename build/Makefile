@@ -154,6 +154,30 @@ src/app/usage.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/image_viewer.dir/build.make CMakeFiles/image_viewer.dir/src/app/usage.cpp.s
 .PHONY : src/app/usage.cpp.s
 
+src/image/image_displayer.o: src/image/image_displayer.cpp.o
+.PHONY : src/image/image_displayer.o
+
+# target to build an object file
+src/image/image_displayer.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/image_viewer.dir/build.make CMakeFiles/image_viewer.dir/src/image/image_displayer.cpp.o
+.PHONY : src/image/image_displayer.cpp.o
+
+src/image/image_displayer.i: src/image/image_displayer.cpp.i
+.PHONY : src/image/image_displayer.i
+
+# target to preprocess a source file
+src/image/image_displayer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/image_viewer.dir/build.make CMakeFiles/image_viewer.dir/src/image/image_displayer.cpp.i
+.PHONY : src/image/image_displayer.cpp.i
+
+src/image/image_displayer.s: src/image/image_displayer.cpp.s
+.PHONY : src/image/image_displayer.s
+
+# target to generate assembly for a file
+src/image/image_displayer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/image_viewer.dir/build.make CMakeFiles/image_viewer.dir/src/image/image_displayer.cpp.s
+.PHONY : src/image/image_displayer.cpp.s
+
 src/image/image_format.o: src/image/image_format.cpp.o
 .PHONY : src/image/image_format.o
 
@@ -358,6 +382,9 @@ help:
 	@echo "... src/app/usage.o"
 	@echo "... src/app/usage.i"
 	@echo "... src/app/usage.s"
+	@echo "... src/image/image_displayer.o"
+	@echo "... src/image/image_displayer.i"
+	@echo "... src/image/image_displayer.s"
 	@echo "... src/image/image_format.o"
 	@echo "... src/image/image_format.i"
 	@echo "... src/image/image_format.s"

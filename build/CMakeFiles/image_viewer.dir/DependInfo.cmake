@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/Gennaro/Code/Glimpse/src/app/usage.cpp" "CMakeFiles/image_viewer.dir/src/app/usage.cpp.o" "gcc" "CMakeFiles/image_viewer.dir/src/app/usage.cpp.o.d"
+  "/home/Gennaro/Code/Glimpse/src/image/image_displayer.cpp" "CMakeFiles/image_viewer.dir/src/image/image_displayer.cpp.o" "gcc" "CMakeFiles/image_viewer.dir/src/image/image_displayer.cpp.o.d"
   "/home/Gennaro/Code/Glimpse/src/image/image_format.cpp" "CMakeFiles/image_viewer.dir/src/image/image_format.cpp.o" "gcc" "CMakeFiles/image_viewer.dir/src/image/image_format.cpp.o.d"
   "/home/Gennaro/Code/Glimpse/src/image/image_info.cpp" "CMakeFiles/image_viewer.dir/src/image/image_info.cpp.o" "gcc" "CMakeFiles/image_viewer.dir/src/image/image_info.cpp.o.d"
   "/home/Gennaro/Code/Glimpse/src/image/image_reader.cpp" "CMakeFiles/image_viewer.dir/src/image/image_reader.cpp.o" "gcc" "CMakeFiles/image_viewer.dir/src/image/image_reader.cpp.o.d"

@@ -237,8 +237,8 @@ CMakeFiles/image_viewer.dir/src/sdl/window.cpp.o: \
  /usr/include/SDL2/SDL_render.h /usr/include/SDL2/SDL_shape.h \
  /usr/include/SDL2/SDL_system.h /usr/include/SDL2/SDL_timer.h \
  /usr/include/SDL2/SDL_version.h /usr/include/SDL2/SDL_locale.h \
- /usr/include/SDL2/SDL_misc.h /usr/include/c++/15.2.1/string \
- /usr/include/c++/15.2.1/bits/stringfwd.h \
+ /usr/include/SDL2/SDL_misc.h /usr/include/SDL2/SDL_video.h \
+ /usr/include/c++/15.2.1/string /usr/include/c++/15.2.1/bits/stringfwd.h \
  /usr/include/c++/15.2.1/bits/memoryfwd.h \
  /usr/include/c++/15.2.1/bits/char_traits.h \
  /usr/include/c++/15.2.1/bits/postypes.h /usr/include/c++/15.2.1/cwchar \
@@ -280,4 +280,9 @@ CMakeFiles/image_viewer.dir/src/sdl/window.cpp.o: \
  /usr/include/c++/15.2.1/bits/uses_allocator.h \
  /usr/include/c++/15.2.1/bits/uses_allocator_args.h \
  /usr/include/c++/15.2.1/tuple /usr/include/c++/15.2.1/bits/ranges_util.h \
- /usr/include/SDL2/SDL_video.h
+ /usr/include/SDL2/SDL_error.h /usr/include/c++/15.2.1/stdexcept \
+ /usr/include/c++/15.2.1/exception \
+ /usr/include/c++/15.2.1/bits/exception_ptr.h \
+ /usr/include/c++/15.2.1/bits/cxxabi_init_exception.h \
+ /usr/include/c++/15.2.1/typeinfo \
+ /usr/include/c++/15.2.1/bits/nested_exception.h

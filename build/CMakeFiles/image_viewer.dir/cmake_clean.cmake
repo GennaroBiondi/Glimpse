@@ -2,6 +2,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/image_viewer.dir/link.d"
   "CMakeFiles/image_viewer.dir/src/app/usage.cpp.o"
   "CMakeFiles/image_viewer.dir/src/app/usage.cpp.o.d"
+  "CMakeFiles/image_viewer.dir/src/image/image_displayer.cpp.o"
+  "CMakeFiles/image_viewer.dir/src/image/image_displayer.cpp.o.d"
   "CMakeFiles/image_viewer.dir/src/image/image_format.cpp.o"
   "CMakeFiles/image_viewer.dir/src/image/image_format.cpp.o.d"
   "CMakeFiles/image_viewer.dir/src/image/image_info.cpp.o"

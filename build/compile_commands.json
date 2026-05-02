@@ -7,6 +7,12 @@
 },
 {
   "directory": "/home/Gennaro/Code/Glimpse/build",
+  "command": "/usr/sbin/c++  -I/home/Gennaro/Code/Glimpse/src -isystem /usr/include/SDL2 -std=gnu++20 -o CMakeFiles/image_viewer.dir/src/image/image_displayer.cpp.o -c /home/Gennaro/Code/Glimpse/src/image/image_displayer.cpp",
+  "file": "/home/Gennaro/Code/Glimpse/src/image/image_displayer.cpp",
+  "output": "CMakeFiles/image_viewer.dir/src/image/image_displayer.cpp.o"
+},
+{
+  "directory": "/home/Gennaro/Code/Glimpse/build",
   "command": "/usr/sbin/c++  -I/home/Gennaro/Code/Glimpse/src -isystem /usr/include/SDL2 -std=gnu++20 -o CMakeFiles/image_viewer.dir/src/image/image_format.cpp.o -c /home/Gennaro/Code/Glimpse/src/image/image_format.cpp",
   "file": "/home/Gennaro/Code/Glimpse/src/image/image_format.cpp",
   "output": "CMakeFiles/image_viewer.dir/src/image/image_format.cpp.o"
