@@ -1,3 +1,0 @@
-/home/Gennaro/Code/Glimpse/build/CMakeFiles/image_viewer.dir
-/home/Gennaro/Code/Glimpse/build/CMakeFiles/edit_cache.dir
-/home/Gennaro/Code/Glimpse/build/CMakeFiles/rebuild_cache.dir
