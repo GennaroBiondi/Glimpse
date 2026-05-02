@@ -72,6 +72,7 @@ int main(int argc, char **argv) {
         handle_path_input(img_path_str);
     } catch (const std::runtime_error &e) {
         std::cerr << e.what() << "\n";
+        return 1;
     }
 
     ImageInfo info = ImageReader::get_image_info(img_path);
